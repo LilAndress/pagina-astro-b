@@ -32,17 +32,31 @@ const { title } = Astro.props;
 				<p>Publicidad</p>
 			</div>
 		
-		</header> 
-		<div class="banner">
+		</header>
+		<div class=" h-72 bg-gradient-to-b from-[#e2d523] to-[rgb(192, 189, 189)] to-100%">
+		</div> 
+		
 		</div>
 
-			<div class="cards container"> 
+		<div class="h-[240px] flex mx-auto container gap-[10px] max-w-[1200px] mt-[-80px]  ">
+			<div class="bg-white rounded w-72 ">01</div>
+			<div class="bg-white rounded w-72 ">02</div>
+			<div class="bg-white rounded w-72 ">03</div>
+			<div class="bg-white rounded w-72 ">04</div>
+			<div class="bg-white rounded w-72 ">05</div>
+			<div class="bg-white rounded w-72 ">06</div>
+		</div>
+
+			<!-- <div class="cards container"> 
 
 			<div class="card"> 
 				1
 			</div>
 			<div class="card" >
 				2
+			</div>
+			<div class="card" >
+				3
 			</div>
 			<div class="card" >
 				4
@@ -53,10 +67,19 @@ const { title } = Astro.props;
 			<div class="card" >
 				6
 			</div>
-			</div>
+			</div> -->
 
-		</header>
-		<!-- <slot /> -->
+			<div class="bg-blue-500 duration-300 text-white py-2 px-4 inline-flex rounded group hover:cursor-pointer hover:bg-blue-600 transition-colors items-center"  >
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-[4px] mt-[1px] group-hover:animate-spin">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+				  </svg>
+				  
+				Presioname    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 mt-[2px] ml-[4px] ">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+				  </svg>
+				  
+			</div>
+		
 	</body>
 </html>
 <style>
@@ -68,7 +91,7 @@ html, body{
 }
 header {
 		height: 80px;
-		background: rgb(250, 250, 21);
+		background: #e2d523;
 		padding-top: 12px;
 	}
 
@@ -78,7 +101,7 @@ header {
 
 	 header input{
 		box-sizing: border-box;
-		display: : inline;
+		display: inline;
 		width: 80%;
         padding: 10px 8px;
 		border-top-left-radius: 3px;
@@ -107,34 +130,33 @@ header {
 		align-items: center;
 	 }
 
-
+/*
  .banner{
 	height: 280px;
-	background: linear-gradient( to bottom, rgb(250, 250, 21) 60%, rgb(239, 233, 233) 100%);
+	background: linear-gradient( to bottom, #e2d523 60%, rgb(239, 233, 233) 100%);
 }
+*/
 
 
-
-.container{
+/* .container{
 	max-width: 1200px;
 	margin: 0 auto;
 
-}
-.cards {
+} */
+
+/* .cards {
 	gap: 10px;
 	display: flex;
-	/* column-count: 6; */
+	/* column-count: 6; 
 	margin-top: -80px ;
-	height: 240px;
+	height: 240px;} */
 
-}
-
-.card {
+/* .card {
      flex-grow: 1;
 	background-color: #fff ;
 	border-radius:  6px;
 
-}
+} */
 .top-header {
 	column-count: 3;
 
