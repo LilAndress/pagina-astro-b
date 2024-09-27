@@ -18,9 +18,9 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		  <header>
-			<div class="top-header container">
+			<div class="top-header flex justify-center   ">
 				<img src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.6.73/mercadolibre/logo_large_25years_v2.png ">
-				<div class="input">
+				<div class="input w-96">
                     <input placeholder="Escribe algo y encuentra" />
               <button>
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -29,51 +29,101 @@ const { title } = Astro.props;
 				  
 			  </button>
 				</div>
-				<p>Publicidad</p>
 			</div>
+
+
+
+                   <div class="flex gap-5 justify-center text-sm items-center  p-6">
+					<a class="mr-9">Ingresa Tu Ubicacion</a>
+			     
+					<div class="  group relative  inline-block" >
+				
+					<a href="# " class="">Categoria</a>
+					<div class=" pt-3 text-white rounded-lg group-hover:block hidden w-64  items-center bg-zinc-800 top-8 absolute">
+		             <div class="bg-zinc-800  size-4 absolute rotate-45  left-2 -top-1  "> </div>
+				     <div class="indent-8 mt-5 space-y-4">
+					 <p >Vehiculos</p>
+					 <p>Supermercado</p>
+					 <p>Tecnologia</p>
+					 <p>Electrodomesticos</p>
+					 <p>Hogar y muebles</p>
+					 <p >Deportes y Fitness</p>
+					 <p>Belleza y cuidado personal </p>
+					 <p>Accesorio apra vehiculos </p>
+					 <p>Electrodomesticos</p>
+					 <p>Herramientas</p>
+					 </div>
+					 
+					</div>
+				</div >
+				
+				<a> Ofertas</a>
+				<a> Cupones</a>
+				<a> Supermercados</a>
+				<a> Moda</a>
+				<a> Vender</a>
+				<a> Ayuda/PQR</a>
+				
+				<div class="flex ml-28 space-x-5 ">
+				<a> Crea tu cuenta</a>
+				<a> Ingresa</a>
+				<a> Mis compras</a>
+			  </div>
+				
+				    
+
+				   </div>
+				   
+			
 		
 		</header>
-		<div class=" h-72 bg-gradient-to-b from-[#e2d523] to-[rgb(192, 189, 189)] to-100%">
+		<div class=" h-72 bg-gradient-to-b from-[#ffe600] to-[rgb(192, 189, 189)] to-100%">
+
+
+
+
+
+			
 		</div> 
 		
 		</div>
 
 		<div class="h-[350px] flex mx-auto container text-center gap-[17px]  max-w-[1400px] mt-[-80px]  ">
-			<div class="bg-white rounded-xl w-96 hover:cursor-pointer shadow-md ">
+			<div class="bg-white rounded-xl group w-96 hover:cursor-pointer shadow-md ">
 				<p class=" text-xl mt-3 font-semibold">Ingresa a tu cuenta</p>
 				<img class="h-40 mx-auto mt-3" src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/registration-da.svg">
-                <p class=" mx-auto text-lg p-4 transition-colors hover:text-blue-500 ">Disfruta de ofertas y compra sin límites.</p>		
-				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors hover:bg-blue-200">Ingresar a tu cuenta </p>	
+                <p class=" mx-auto text-lg p-4 transition-colors group-hover:text-blue-500 ">Disfruta de ofertas y compra sin límites.</p>		
+				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors group-hover:bg-blue-200">Ingresar a tu cuenta </p>	
   			</div>
-			  <div class="bg-white rounded-xl w-96 hover:cursor-pointer shadow-md ">
+			  <div class="bg-white rounded-xl group w-96 hover:cursor-pointer shadow-md ">
 				<p class=" text-xl mt-3 font-semibold">Ingresa a tu ubicación</p>
 				<img class="h-40 mx-auto mt-3" src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/location.svg">
-                <p class=" mx-auto text-lg p-4 transition-colors hover:text-blue-500 ">Consulta costos y tiempos de entrega.</p>		
-				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors hover:bg-blue-200">Ingresar ubicación </p>	
+                <p class=" mx-auto text-lg p-4 transition-colors group-hover:text-blue-500 ">Consulta costos y tiempos de entrega.</p>		
+				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors group-hover:bg-blue-200">Ingresar ubicación </p>	
   			</div>
-			  <div class="bg-white rounded-xl w-96 hover:cursor-pointer shadow-md ">
+			  <div class="bg-white rounded-xl w-96  group hover:cursor-pointer shadow-md ">
 				<p class=" text-xl mt-3 font-semibold">Medios de pago</p>
 				<img class="h-40 mx-auto mt-3" src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/payment-methods.svg">
-                <p class=" mx-auto text-lg p-4 transition-colors hover:text-blue-500 ">Paga tus compras de forma rápida y segura.</p>		
-				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors hover:bg-blue-200">Conocer medios de pago</p>	
+                <p class=" mx-auto text-lg p-4 transition-colors group-hover:text-blue-500 ">Paga tus compras de forma rápida y segura.</p>		
+				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors group-hover:bg-blue-200">Conocer medios de pago</p>	
   			</div>
-			  <div class="bg-white rounded-xl w-96 hover:cursor-pointer shadow-md ">
+			  <div class="bg-white rounded-xl w-96 group  hover:cursor-pointer shadow-md ">
 				<p class=" text-xl mt-3 font-semibold">Menos de $40.000</p>
 				<img class="h-40 mx-auto mt-3" src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/low-price-product.svg">
-                <p class=" mx-auto text-lg p-4 transition-colors hover:text-blue-500 ">Descubre productos con precios bajos.</p>		
-				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors hover:bg-blue-200">Mostrar productos </p>	
+                <p class=" mx-auto text-lg p-4 transition-colors group-hover:text-blue-500 ">Descubre productos con precios bajos.</p>		
+				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors group-hover:bg-blue-200">Mostrar productos </p>	
   			</div>
-			  <div class="bg-white rounded-xl w-96 hover:cursor-pointer shadow-md ">
+			  <div class="bg-white rounded-xl w-96 group  hover:cursor-pointer shadow-md ">
 				<p class=" text-xl mt-3 font-semibold">Compra protegida</p>
 				<img class="h-40 mx-auto mt-3" src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/buy-protected.svg">
-                <p class=" mx-auto text-lg p-4 transition-colors hover:text-blue-500 ">Puedes devolver tu comprar gratis.</p>		
-				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors hover:bg-blue-200">Cómo funciona </p>	
+                <p class=" mx-auto text-lg p-4 transition-colors group-hover:text-blue-500 ">Puedes devolver tu comprar gratis.</p>		
+				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors group-hover:bg-blue-200">Cómo funciona </p>	
   			</div>
-			  <div class="bg-white rounded-xl w-96 hover:cursor-pointer shadow-md ">
+			  <div class="bg-white rounded-xl w-96  group hover:cursor-pointer shadow-md ">
 				<p class=" text-xl mt-3 font-semibold">Tiendas oficiales</p>
 				<img class="h-40 mx-auto mt-3" src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/store-official.svg">
-                <p class=" mx-auto text-lg p-4 transition-colors hover:text-blue-500  ">Encuentra tus marcas preferidas.</p>		
-				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex text-blue-500 justify-center items-center font-semibold text-sm transition-colors hover:bg-blue-200">Mostrar tiendas </p>	
+                <p class=" mx-auto text-lg p-4 transition-colors group-hover:text-blue-500  ">Encuentra tus marcas preferidas.</p>		
+				<p class="mt-2 bg-blue-100 mr-5 ml-5 h-7 rounded-md flex  text-blue-500 justify-center items-center font-semibold text-sm transition-colors group-hover:bg-blue-200">Mostrar tiendas </p>	
   			</div>
 			
 		</div>
@@ -100,7 +150,7 @@ const { title } = Astro.props;
 			</div>
 			</div> -->
 
-			<div class="bg-blue-500 duration-300 text-white py-2 px-4 inline-flex rounded group hover:cursor-pointer hover:bg-blue-600 transition-colors items-center"  >
+			<!-- <div class="bg-blue-500 duration-300 text-white py-2 px-4 inline-flex rounded group hover:cursor-pointer hover:bg-blue-600 transition-colors items-center"  >
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-[4px] mt-[1px] group-hover:animate-spin">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
 				  </svg>
@@ -109,7 +159,7 @@ const { title } = Astro.props;
 					<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
 				  </svg>
 				  
-			</div>
+			</div> -->
 		
 	</body>
 </html>
@@ -118,11 +168,11 @@ const { title } = Astro.props;
 html, body{
 	padding: 0;
 	margin: 0;
-	background-color: rgb(239, 233, 233) ;
+	background-color: #ececec;
 }
 header {
 		height: 80px;
-		background: #e2d523;
+		background: #ffe600;
 		padding-top: 12px;
 	}
 
